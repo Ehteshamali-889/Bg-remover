@@ -2,9 +2,13 @@
 <html>
 <head>
   <title>JPG to PNG Converter with Background Remover</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <input type="file" id="fileInput" accept="image/jpeg">
+  <div class="upload-btn-wrapper">
+    <button class="btn">Upload JPG Image</button>
+    <input type="file" id="fileInput" accept="image/jpeg">
+  </div>
   <canvas id="canvas"></canvas>
   <button id="convertBtn">Convert & Remove Background</button>
   <a id="downloadLink" style="display: none;">Download PNG</a>
